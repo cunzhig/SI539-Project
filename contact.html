@@ -7,6 +7,7 @@
     <!-- link ref = "reset.css" default -->
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/footer-distributed.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="css/contact.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <meta name = ‘viewport’ content=‘width=device-width, initial-scale=1’>
@@ -15,7 +16,7 @@
 <body>
         <!--header-->
         <header class = "header">
-            <h1>Contact Me</h1>
+            <h1>Contact</h1>
             <!--navigation-->
             <nav class="nav">
                 <nav class="navbar">
@@ -31,26 +32,58 @@
 
         <!--content-->
         <div class="contact">
+            <!-- form -->
+            <div class="container-contact100">
 
-                <form action = "" method="POST">
-                    <br>
-                     First name:<input type = 'text' name='fname'><br>
-                    <br>
-                     Last name: <input type = 'text' name='fname'><br>
-                    <br>
-                    Email:<input type = 'email' name='email'><br>
-                    <br>
-                    <input type="submit" value="Submit">
-                </form>
+                    <div class="wrap-contact100">
+                        <form class="contact100-form validate-form" method='POST'>
+                            <span class="contact100-form-title">
+                                <i class="fas fa-comments contact100-form-title"></i>
+                                Send Me A Message
+                            </span>
+                            
+                            <div class="wrap-input100 validate-input" data-validate="Please enter your name">
+                                <input class="input100" type="text" name="name" placeholder="Full Name">
+                                <span class="focus-input100"></span>
+                            </div>
+            
+                            <div class="wrap-input100 validate-input" data-validate = "Please enter your email: e@a.x">
+                                <input class="input100" type="text" name="email" placeholder="E-mail">
+                                <span class="focus-input100"></span>
+                            </div>
+            
+                            <div class="wrap-input100 validate-input" data-validate = "Please enter your phone">
+                                <input class="input100" type="text" name="phone" placeholder="Phone">
+                                <span class="focus-input100"></span>
+                            </div>
+            
+                            <div class="wrap-input100 validate-input" data-validate = "Please enter your message">
+                                <textarea class="input100" name="message" placeholder="Your Message"></textarea>
+                                <span class="focus-input100"></span>
+                            </div>
+            
+                            <div class="container-contact100-form-btn">
+                                <button class="contact100-form-btn">
+                                    <span>
+                                        <i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
+                                        Send
+                                    </span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
         </div>  
-    
+        
+
+        <!-- footer -->
         <footer class="footer-distributed">
 
                 <div class="footer-right">
-                    <i><a href="contact.html" class="far fa-envelope" alt='email'></a></i>
-                    <i><a href="https://www.facebook.com/profile.php?id=100010311337053&ref=bookmarks" class="fab fa-facebook-square" alt='fb'></a></i>
-                    <i><a href="https://www.instagram.com/laohangao/?hl=en" class="fab fa-instagram" alt='ins'></a></i>
-                    <i><a href="https://github.com/cunzhig" class="fab fa-github" alt='github'></a></i>        
+                    <i><a href="contact.html" class="far fa-envelope" aria-label='email'></a></i>
+                    <i><a href="https://www.facebook.com/profile.php?id=100010311337053&ref=bookmarks" class="fab fa-facebook-square" aria-label='fb'></a></i>
+                    <i><a href="https://www.instagram.com/laohangao/?hl=en" class="fab fa-instagram" aria-label='ins'></a></i>
+                    <i><a href="https://github.com/cunzhig" class="fab fa-github" aria-label='github'></a></i>        
                 </div>
         
                 <div class="footer-left">
