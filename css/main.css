@@ -98,11 +98,10 @@
 }
 
 /*----------About----------*/
-.undergraduate{
+/* .undergraduate{
     display:grid;
     grid-template-columns: 50% 50%;
     height: 600px;
-    /* background-color:lightgrey; */
     background-size:cover;
     background-position:center;
 }
@@ -131,7 +130,6 @@
     display:grid;
     grid-template-columns: 50% 50%;
     height: 600px;
-    /* background-color:lightpink; */
     background-size:cover;
     background-position:center;
 }
@@ -142,7 +140,7 @@
         grid-column-start: 1;
         grid-column-end: 2;
         width: 50%
-    }
+    } */
 
 
 

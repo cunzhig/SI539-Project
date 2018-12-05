@@ -6,10 +6,13 @@
     <meta name="author" content="Cunzhi Gao">
     <!-- link ref = "reset.css" default -->
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/about.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/footer-distributed.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
     <meta name = ‘viewport’ content=‘width=device-width, initial-scale=1’>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -21,7 +24,7 @@
                 <nav class="navbar">
                         <ul>
                             <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About</a></li> 
+                            <li class="current"><a href="about.html">About</a></li> 
                             <li><a href="climb.html">Climb</a></li>
                             <li><a href="contact.html">Contact</a></li>
                         </ul>
@@ -30,21 +33,93 @@
         </header>
 
         <!--content-->
-        <div class = "undergraduate">
-            <img src="imgs/UMJI.png" alt="UMJI" />
-            <p id="sjtu"></p>
+
+        <div class='about-background'>
+            <div class='education'>
+                    <p class="headline"> Engineer<br>UX Designer Moutain Lover </p>
+                    
+                    
+                    <div class = "large-pic">
+                        <p hidden class='about-img' id='large-color'>imgs/undergraduate.jpg</p>
+                        <p hidden class='about-img'id='large-black'>imgs/b1.png</p>
+                    </div>
+        
+                    <div class = "top-left">
+                        <p hidden class='about-img left' id ='left-color'>imgs/horse.jpg</p>
+                        <p hidden class='about-img'id='left-black'>  imgs/b2.png</p>
+                    </div>
+        
+                    <div class = 'top-right'>
+                        <p hidden class='about-img' id='right-color'>imgs/msi.png</p>
+                        <p hidden class='about-img' id='right-black'>imgs/b3.png</p>
+                        
+                    </div>
+            </div>
         </div>
-        <div class = "graduate">
-                <img src="imgs/UMSI.jpg" alt="UMSI" />
-            <p id="umsi"></p>
-        </div>
+        
+        <script>
+                $(".top-left").click(function(){
+                    // alert('test');
+                    var temp1 = $("#large-color").text();
+                    var temp2 = $("#large-black").text();
+                    // alert(temp1);
+                    // alert(temp2);
+                    $("#large-color").html($('#left-color').text());
+                    $("#large-black").html($('#left-black').text());
+                    $('#left-color').html(temp1);
+                    $('#left-black').html(temp2);
+                    $(".top-left").css("background-image","url('"+$('#left-black').text()+"')");
+                    $('.large-pic').css("background-image","url('"+$('#large-color').text()+"')");
+
+                    var picture=$("#large-color").text();
+                    if (picture =='imgs/undergraduate.jpg'){
+                        $('.headline').css('color','#20B2AA');
+                    }
+                    if (picture =='imgs/horse.jpg'){
+                        $('.headline').css('color','orange');
+                    }
+                    if (picture =='imgs/msi.png'){
+                        $('.headline').css('color','navy');
+                    }
+                });
+
+
+                $(".top-right").click(function(){
+                    // alert('test');
+                    var temp1 = $("#large-color").text();
+                    var temp2 = $("#large-black").text();
+                    $("#large-color").html($('#right-color').text());
+                    $("#large-black").html($('#right-black').text());
+                    $('#right-color').html(temp1);
+                    $('#right-black').html(temp2);
+                    $(".top-right").css("background-image","url('"+$('#right-black').text()+"')");
+                    $('.large-pic').css("background-image","url('"+$('#large-color').text()+"')");
+                    
+                    var picture=$("#large-color").text();
+                    if (picture =='imgs/undergraduate.jpg'){
+                        $('.headline').css('color','#20B2AA');
+                    }
+                    if (picture =='imgs/horse.jpg'){
+                        $('.headline').css('color','orange');
+                    }
+                    if (picture =='imgs/msi.png'){
+                        $('.headline').css('color','navy');
+                    }
+                });
+        </script>
+
+        
+
+
+
+
         <footer class="footer-distributed">
 
                 <div class="footer-right">
-                    <i><a href="contact.html" class="far fa-envelope" alt='email'></a></i>
-                    <i><a href="https://www.facebook.com/profile.php?id=100010311337053&ref=bookmarks" class="fab fa-facebook-square" alt='fb'></a></i>
-                    <i><a href="https://www.instagram.com/laohangao/?hl=en" class="fab fa-instagram" alt='ins'></a></i>
-                    <i><a href="https://github.com/cunzhig" class="fab fa-github" alt='github'></a></i>
+                    <i><a href="mailto:cunzhig@umich.edu" class="far fa-envelope" aria-label='email'></a></i>
+                    <i><a href="https://www.facebook.com/profile.php?id=100010311337053&ref=bookmarks" class="fab fa-facebook-square" aria-label='fb'></a></i>
+                    <i><a href="https://www.instagram.com/laohangao/?hl=en" class="fab fa-instagram" aria-label='ins'></a></i>
+                    <i><a href="https://github.com/cunzhig" class="fab fa-github" aria-label='github'></a></i>
                 </div>
         
                 <div class="footer-left">

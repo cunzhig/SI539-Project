@@ -1,0 +1,75 @@
+.about-background{
+    background-color: white;
+}
+
+.education {
+    display: inline-grid;
+    /* grid-template-columns: 40% 10% 30% 10% 10%; */
+    grid-template-columns:39.571150097% 13.840155945% 16.56920078% 12.280701754% 19px 12.280701754% 3.606237817%;
+    grid-template-rows: 10% 10% 20% 35% 35%;
+    height: 628px;
+    margin-left:12%;
+    margin-right: 12%;
+    margin-bottom: 2%;
+}
+
+
+.headline{
+    font-size: 5.6rem!important;
+    line-height: 5.6rem!important;
+    font-weight: 900!important;
+    margin-top: 3%!important;
+    
+    z-index: 5;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* font-family: Slack-Averta,appleLogo,sans-serif!important; */
+    font-family: 'Permanent Marker', cursive;
+    color:#20B2AA;
+    /* color: black; */
+    /* color:blue; */
+}
+
+
+.large-pic{
+    height: 500px;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 8;
+    background-image: url("../imgs/undergraduate.jpg");
+    background-size:cover;
+    background-position:center;
+    z-index:2;
+} 
+
+.top-left{
+    height: 170px;
+    grid-row-start:1 ;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-image: url("../imgs/b2.png");
+    background-size:cover;
+    background-position:center;
+    z-index:3;
+}
+
+.top-right{
+    height: 170px;
+    grid-row-start:1 ;
+    grid-row-end: 3;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    background-image: url("../imgs/b3.png");
+    background-size:cover;
+    background-position:center;
+    z-index:3;
+}
+
+.about-image{
+    display:none;
+    z-index: 1;
+}
