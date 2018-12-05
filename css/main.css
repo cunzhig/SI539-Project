@@ -211,6 +211,8 @@
 
 /*----------Contact----------*/
 .contact{
+    display:grid;
+    grid-template-columns: 50% 50%;
     background-image: url("../imgs/gnj.png");
     display:block;
     height: 600px;
@@ -218,7 +220,6 @@
     background-size:cover;
     background-position:center;
 }
-
 
 
 
