@@ -55,20 +55,27 @@
     .navbar > ul > li > a{
         text-decoration: none;
         color:  #292c2f;
+        /* padding: 10px 10px; */
+        margin: 10px 10px;
     }
 
     .navbar > ul > li{
         display: inline-block;
         color:  #292c2f;
         text-align: center;
-        padding: 0% 3% 0% 3%;
+        margin: 0% 4% 0% 4%;
         text-decoration: none;
-        font-size:1.3em;
+        font-size:1.5em;
     }
 
     .navbar > ul > li > a:hover {
         color:	#20B2AA;
     }
+
+.current{
+    border-bottom: 4px solid  #20B2AA;
+    padding: 0%;
+}
 
 
 /*-----Home-----*/
