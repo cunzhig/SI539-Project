@@ -24,15 +24,15 @@ textarea:focus, input:focus {
   border-color: transparent !important;
 }
 
-input::-webkit-input-placeholder { color: #464649;}
-input:-moz-placeholder { color: #464649;}
-input::-moz-placeholder { color: #464649;}
-input:-ms-input-placeholder { color: #464649;}
+input::-webkit-input-placeholder { color: black;}
+input:-moz-placeholder { color: black;}
+input::-moz-placeholder { color: black;}
+input:-ms-input-placeholder { color: black;}
 
-textarea::-webkit-input-placeholder { color: #464649;}
-textarea:-moz-placeholder { color: #464649;}
-textarea::-moz-placeholder { color: #464649;}
-textarea:-ms-input-placeholder { color: #464649;}
+textarea::-webkit-input-placeholder { color: black;}
+textarea:-moz-placeholder { color: black;}
+textarea::-moz-placeholder { color: black;}
+textarea:-ms-input-placeholder { color: black;}
 
 /*---------------------------------------------*/
 button {
@@ -102,7 +102,7 @@ button:hover {
   border-radius: 31px;
   font-family: Ubuntu-Bold;
   font-size: 18px;
-  color: #8f8fa1;
+  color: black;
   line-height: 1.2;
 }
 
