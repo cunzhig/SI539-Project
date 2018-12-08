@@ -24,15 +24,15 @@ textarea:focus, input:focus {
   border-color: transparent !important;
 }
 
-input::-webkit-input-placeholder { color: #bdbdd3;}
-input:-moz-placeholder { color: #bdbdd3;}
-input::-moz-placeholder { color: #bdbdd3;}
-input:-ms-input-placeholder { color: #bdbdd3;}
+input::-webkit-input-placeholder { color: #464649;}
+input:-moz-placeholder { color: #464649;}
+input::-moz-placeholder { color: #464649;}
+input:-ms-input-placeholder { color: #464649;}
 
-textarea::-webkit-input-placeholder { color: #bdbdd3;}
-textarea:-moz-placeholder { color: #bdbdd3;}
-textarea::-moz-placeholder { color: #bdbdd3;}
-textarea:-ms-input-placeholder { color: #bdbdd3;}
+textarea::-webkit-input-placeholder { color: #464649;}
+textarea:-moz-placeholder { color: #464649;}
+textarea::-moz-placeholder { color: #464649;}
+textarea:-ms-input-placeholder { color: #464649;}
 
 /*---------------------------------------------*/
 button {

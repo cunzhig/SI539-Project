@@ -18,8 +18,8 @@
 
 
 .headline{
-    font-size: 5.6rem!important;
-    line-height: 5.6rem!important;
+    font-size: 5rem!important;
+    line-height: 5rem!important;
     font-weight: 900!important;
     margin-top: 3%!important;
     margin-bottom: 2%!important;
@@ -31,7 +31,7 @@
     grid-column-end: 3;
     /* font-family: Slack-Averta,appleLogo,sans-serif!important; */
     font-family: 'Permanent Marker', cursive;
-    color:#20B2AA;
+    color:rgb(243, 13, 128);
     /* color: black; */
     /* color:blue; */
 }
@@ -80,5 +80,4 @@
     grid-column-end: 2;
     font-size: 1.4em;
     padding-top: 5%;
-    font-family: 'Cormorant', serif; 
 }
