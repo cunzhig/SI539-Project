@@ -1,3 +1,8 @@
+.dropdown{
+    display: none;
+}
+
+
 /* iPad Pro */
 @media screen and (max-width: 1280px) {
     .header {
@@ -266,5 +271,33 @@
         font-size:40px;
     }
 
+
+    .dropdown{
+        display: block;
+    }
+
+    .dropdown-toggle{
+        width:150px;
+        background-color: white;
+        height: 60px;
+        padding-bottom: 90px;
+    }
+
+    .dropdown-menu-text{
+        line-height: 80px;
+        font-size: 60px;
+    }
+
+    .dropdown-current{
+        background-color: #20B2AA;
+    }
+
+    .fa-bars{
+        font-size: 55px;
+    }
+
+    .navbar{
+        display: none;
+    }
 
 }

@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/media.css" />
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src='js/typed.min.js'></script>
     <meta name = ‘viewport’ content=‘width=device-width, initial-scale=1’>
 </head>
@@ -44,6 +48,31 @@
                 </ul>
             </div>
         </nav>
+
+
+        <!-- nav for small screen -->
+        <div class="dropdown">
+            <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" 
+                    data-toggle="dropdown">
+                <i class="fas fa-bars"></i>
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                <li role="presentation">
+                    <a class='dropdown-menu-text dropdown-current' role="menuitem" tabindex="-1" href="index.html">Home</a>
+                </li>
+                <li role="presentation">
+                    <a role class='dropdown-menu-text' ="menuitem" tabindex="-1" href="about.html">About</a>
+                </li>
+                <li role="presentation">
+                    <a role class='dropdown-menu-text' ="menuitem" tabindex="-1" href="climb.html">Climb</a>
+                </li>
+                <li role="presentation"></li>
+                <li role="presentation">
+                    <a class='dropdown-menu-text' role="menuitem" tabindex="-1" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
     </header>
 
     <!--banner-->
@@ -89,6 +118,10 @@
         </div>
 
     </footer>
+
+
+    
+    ​
     
 </body>
 </html>

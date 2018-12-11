@@ -77,6 +77,10 @@
     padding: 0%;
 }
 
+.dropdown {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
 
 /*-----Home-----*/
 /*----Banner----*/
