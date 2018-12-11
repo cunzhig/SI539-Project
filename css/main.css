@@ -47,9 +47,12 @@
         color:	#20B2AA;
     }
 
+
     .navbar > ul{
         list-style-type: none;
         overflow: hidden;
+        margin-bottom:0;
+        margin-top:1.5%;
     }
 
     .navbar > ul > li > a{
