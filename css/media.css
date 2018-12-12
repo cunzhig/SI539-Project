@@ -144,8 +144,10 @@
         grid-column: auto;
         font-size: 10vw;
         /* background-color:yellow; */
-        margin:0% 0% 0% 0%;
+        margin:4% 0% 0% 0%;
+        padding-bottom: 0%;
     }
+
     
     .nav {
         grid-row-start: 2;
@@ -254,7 +256,15 @@
         margin: 0;
     }
     .footer-distributed .footer-right{
-        max-width: 600px;
+        max-width: 500px;
+    }
+
+    .footer-right{
+        display: flex;
+    }
+
+    .footer-right a{
+        flex:1;
     }
 
     .footer-distributed .footer-right a{
